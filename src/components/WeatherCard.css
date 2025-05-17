@@ -1,0 +1,108 @@
+.card{
+    width: 30%;
+    border-radius: 10px;
+    padding: 3rem 2rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background:linear-gradient(45deg, #21618c 50%, #2e86c1 90%);
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    width: 100%;
+}
+
+.form-container input{
+    outline: none;
+    border: none;
+    height: 40px;
+    width:60%;
+    border-radius: 2rem;
+    padding: 0 1.5rem;
+    font-size: 1.2rem;
+    background-color: #fbfcfc;
+}
+
+.form-container input::placeholder{
+    font-size: 1rem;
+
+}
+
+.form-container button{
+    border-radius: 50%;   
+    background-color: #fbfcfc;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.figure-container{
+    width: 100px;
+    height: 100px;
+    margin: 3rem;
+    
+}
+
+
+.figure-container img{
+    width: 100%;
+}
+
+.location-temp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    gap: .5rem;
+    margin-bottom: 3rem;
+    
+}
+
+.location-temp .temprature{
+    font-size: 2.5rem;
+}
+
+.location-temp .location{
+    font-size: 1.5rem;
+}
+
+.other-details{
+    width: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.other-details-item{
+    display: flex;
+    gap: .5rem;
+}
+
+.other-details-imgcont img{
+    filter: invert(100%);
+}
+
+.other-details-desc h3{
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin-bottom: .5rem;
+}
+
+.other-details-desc h4{
+    font-size: 1rem;
+    font-weight: lighter;
+}
